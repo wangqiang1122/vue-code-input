@@ -20,4 +20,4 @@ imprt vueCodeInput form "vue-code-input"
 vaildate 失去焦点是传递 input框内的数据
 
 写法
- <vaildata1 @vaildate="vaildate" :num="6" ></vaildata1>
+ <vueCodeInput  @vaildate="vaildate" :num="6" ></vueCodeInput >
