@@ -21,3 +21,4 @@ vaildate 失去焦点是传递 input框内的数据
 
 写法
  <vueCodeInput  @vaildate="vaildate" :num="6" ></vueCodeInput >
+11
