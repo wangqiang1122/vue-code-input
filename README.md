@@ -1,6 +1,8 @@
 ﻿# vue-code-input
 仿原生验证码自动切换效果
 
+暂时在NPM，没有上传成功
+要用的话可以复制vaildate文件里的index.vue文件
 需要下载依赖
 npm i vue-code-input --save
 
@@ -20,5 +22,6 @@ imprt vueCodeInput form "vue-code-input"
 vaildate 失去焦点是传递 input框内的数据
 
 写法
- <vueCodeInput  @vaildate="vaildate" :num="6" ></vueCodeInput >
-11
+ <vueCodeInput  @vaildate="vaildate" :num="6" >
+
+</vueCodeInput >
