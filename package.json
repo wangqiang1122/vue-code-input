@@ -1,10 +1,10 @@
 {
   "name": "vue-code-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "仿原生自动切换input框",
   "author": "wang",
   "private": false,
-  "main": "src/components/vaildate/index.js",
+  "main": "src/components/vaildate/vaildata.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",

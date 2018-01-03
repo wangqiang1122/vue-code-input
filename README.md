@@ -1,9 +1,8 @@
 ﻿# vue-code-input
 仿原生验证码自动切换效果
 
-暂时在NPM，没有上传成功
-要用的话可以复制vaildate文件里的index.vue文件
-需要下载依赖
+需要下载依赖 或者 index.vue的源码 仅适用于vue
+
 npm i vue-code-input --save
 
 import 引入
