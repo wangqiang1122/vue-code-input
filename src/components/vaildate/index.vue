@@ -26,7 +26,11 @@
       num:{ //有几个格子
         type:Number,
         default:6
-      }
+      },
+      Vshow:{
+        type:Boolean,
+        default:false
+      } //如果需要隐藏
     },
     data:function(){
       return {
@@ -42,6 +46,13 @@
     },
     computed:{
 
+    },
+    watch:{
+      Vshow:function(){
+        let Numwidth=this.$refs.spanlist[0];
+        Numwidth.setAttribute("class","vaildateActive")
+        this.$refs.inputcode.style.width=Numwidth.offsetWidth-10+"px";
+      }
     },
     mounted:function(){
       let Numwidth=this.$refs.spanlist[0];

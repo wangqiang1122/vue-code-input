@@ -18,9 +18,12 @@ imprt vueCodeInput form "vue-code-input"
 
 .vaildateActive 为类名 切换时的动态类
 
-vaildate 失去焦点是传递 input框内的数据
 
-写法
- <vueCodeInput  @vaildate="vaildate" :num="6" >
+vaildate 失去焦点是传递 input框内的数据
+ 添加一个Vshow的属性对父组件的v-show进行监听 
+ Vshow 你是否有隐藏隐藏验证码需要  一般来说是布尔值 false
+       
+
+ <vueCodeInput  @vaildate="vaildate" :num="6" :Vshow="你的参数">
 
 </vueCodeInput >
