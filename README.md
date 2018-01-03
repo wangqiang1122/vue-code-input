@@ -27,3 +27,4 @@ vaildate 失去焦点是传递 input框内的数据
  <vueCodeInput  @vaildate="vaildate" :num="6" :Vshow="你的参数">
 
 </vueCodeInput >
+[demo](https://wangqiang1122.github.io/vue-code-input-demo/dist/#/master11)  
